@@ -3,7 +3,6 @@ require "hangr/init_db"
 require "pry"
 
 module Hangr
-  # Your code goes here...
 
   class Player < ActiveRecord::Base
     has_many :games
@@ -14,4 +13,4 @@ module Hangr
   end
 end
 
-binding.pry
+#binding.pry
